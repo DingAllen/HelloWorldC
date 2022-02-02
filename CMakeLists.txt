@@ -13,3 +13,7 @@ foreach(file ${files})
     get_filename_component(name ${file} NAME)
     add_executable(${name} ${file} src/factorial.c)
 endforeach()
+
+
+add_compile_options("$<$<C_COMPILER_ID:MSVC>:/utf-8>")
+add_compile_options("$<$<CXX_COMPILER_ID:MSVC>:/utf-8>")
