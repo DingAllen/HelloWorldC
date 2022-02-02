@@ -6,14 +6,10 @@ project(${ProjectId} C)
 
 set(CMAKE_C_STANDARD 11)
 
-include_directories("include ")
+include_directories("include")
 
 file(GLOB files "${CMAKE_CURRENT_SOURCE_DIR}/*.c")
 foreach(file ${files})
     get_filename_component(name ${file} NAME)
     add_executable(${name} ${file} src/factorial.c)
 endforeach()
-
-
-add_compile_options("$<$<C_COMPILER_ID:MSVC>:/utf-8>")
-add_compile_options("$<$<CXX_COMPILER_ID:MSVC>:/utf-8>")
