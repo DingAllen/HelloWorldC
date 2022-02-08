@@ -1,0 +1,6 @@
+#ifndef STATICLIBTEST_LIBRARY_H
+#define STATICLIBTEST_LIBRARY_H
+
+int add(int a, int b);
+
+#endif //STATICLIBTEST_LIBRARY_H

@@ -1,0 +1,3 @@
+H:/clion_projects/HelloWorldC/staticlibtest/cmake-build-release-mingw/CMakeFiles/staticlibtest.dir
+H:/clion_projects/HelloWorldC/staticlibtest/cmake-build-release-mingw/CMakeFiles/edit_cache.dir
+H:/clion_projects/HelloWorldC/staticlibtest/cmake-build-release-mingw/CMakeFiles/rebuild_cache.dir
